@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!-- A large, nearly-black-but-not-quite header.
+A large, blue header.
+A 2 column layout with images of their product.
+A short navbar which has an 'exciting' design.
+Lots of Bootstrap badges
+One huge 'buy now' button at the bottom. It should do something fancy when they hover over it.
+A footer with lots of buttons and images. -->
+
+<html>
+<head>
+	<title>Blue Bell Ice Cream</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<div class="container"> <!-- Container -->
+
+	<!-- Nav Bar -->
+		<ul class="nav nav-pills">
+		  <li role="presentation"><a href="#">Home</a></li>
+		  <li role="presentation"><a href="#">History</a></li>
+		  <li role="presentation"><a href="#">Messages <span class="badge">300</span></a></li>
+		</ul>
+
+
+	<!-- HEADER -->
+		<div class="page-header">
+		<img class = "pic" src="images/blue-bell-halfmoon-300.png" alt="Blue Bell Logo">
+		</div>
+
+	<center>
+		<h1 style="font-family: Crimson+Text"><a href="http://www.bluebell.com/" target="_blank">Blue Bell Creameries</a></h1>
+		<h4><em>"We eat all we can and sell the rest"</em></h4>
+	</center>
+
+<!-- Two Column format each with medium 6 -->
+
+		<div class="col">
+			<div class="row">
+				<div class="col-xs-6 col-lg-4">
+					<img src="images/statue.jpg">
+					<p>It all started on a hot summer day in 1907 when local farmers decided to establish the Brenham Creamery Company and make butter from excess cream brought in by area farmers. A few years later, the creamery began making ice cream and delivering it to neighbors by horse and wagon. It was in 1930 that the company changed its name to Blue Bell Creameries after the native Texas bluebell wildflower.</p>
+
+				<!-- Badge -->
+					<button class="btn btn-primary" type="button">
+	  					Flavors <span class="badge">157</span>
+					</button>
+
+				</div>
+				<div class="col-xs-6 col-lg-4">
+					<img src="images/stacked.jpg">
+					<p>There are currently 52 flavors available.  17 of these flavors are standard and the others are either seasonal or regional. Blue Bell Ice Cream will be coming to Colorado in March 27th! Sadly, Only a few counties on the front range will be selling the best ice cream in the USA.</p>
+
+				<!-- Badge -->
+					<a href="#">email <span class="badge">42</span></a>
+				</div>
+
+			</div>
+
+		</div>
+
+		<!-- Button -->
+		<button type="button" class="btn btn-primary btn-lg btn-block">BUY NOW!</button>
+
+	<!-- Footer -->
+  		<footer>
+  			<img src="images/bb-vector.jpg">
+  			<cite title="Source Title">Blue Bell Ice Cream</cite>
+  			<img src="images/vanilla.jpg">
+			<a class="btn btn-default" href="#" role="button">Stores</a>
+			<button class="btn btn-default" type="submit">Holiday Flavors</button>
+			<img src="images/scoops.jpg">
+			<input class="btn btn-default" type="button" value="Input">
+			<img src="images/question.png">
+			<input class="btn btn-default" type="submit" value="Submit">
+			<button class="btn btn-primary" type="button">
+  				Favs <span class="badge">20</span>
+			</button>
+			<br>
+			<br>
+			<small>Copyright 2016 Chana VanNice</small>
+		</footer>
+
+
+
+	</div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+/* CSS Stylesheet for bootstrap-myclientwants.html */
+
+.nav {
+	margin: 0;
+	margin-bottom: 1em;
+}
+
+.page-header {
+	background-color: LightSkyBlue;
+	margin: 0;
+	margin-bottom: 3em;
+}
+
+
+/* Images
+div .col {
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100vh;
+}
+*/
+
+.pic {
+	margin: 0;
+	margin-top: 2em;
+	margin-left: 2em;
+	margin-bottom: 2em;
+	size: 50%
+}
+
+.row {
+	display: flex;
+	justify-content: space-around;
+	margin: 0;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.button {
+	margin: 0;
+	margin-top: 3em;
+}
+
+footer {
+	margin: 0;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	text-align: center;
+}
